@@ -2,6 +2,7 @@ import os
 
 out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out, exist_ok=True)
+# Revisi: setiap baris pendek dan jeda napas di akhir kalimat supaya napas pembaca ikut melambat.
 text = (
     "The kettle hums. You do not need to answer it.\n"
     "Steam writes its small alphabet on the cold window,\n"
